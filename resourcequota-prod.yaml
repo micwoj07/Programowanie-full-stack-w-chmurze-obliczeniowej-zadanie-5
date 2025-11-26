@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: xlimits-prod
+  namespace: ns-prod
+spec:
+  hard:
+    cpu: "400m"
+    memory: "512Mi"
+    pods: "20"
+
