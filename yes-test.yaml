@@ -4,7 +4,7 @@ metadata:
   name: yes-test
   namespace: ns-dev
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: yes-test
@@ -23,4 +23,3 @@ spec:
           limits:
             cpu: "200m"
             memory: "20Mi"
-
