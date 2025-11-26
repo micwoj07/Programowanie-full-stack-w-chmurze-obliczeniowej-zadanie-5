@@ -8,4 +8,3 @@ spec:
     cpu: "200m"
     memory: "256Mi"
     pods: "10"
-
